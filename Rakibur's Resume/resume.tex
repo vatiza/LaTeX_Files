@@ -1,0 +1,264 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage{graphicx}
+    \usepackage[hidelinks]{hyperref}
+    \usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+    \usepackage{longtable}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{9pt} \textsc{#1}}
+    \vspace*{-9pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+    \vspace*{-40pt}
+
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Profile
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \vspace*{-2pt}
+ 
+    {\Huge \scshape {Md Rakibur Rahman Zihad}}\\
+    \vspace*{2pt}
+    \vspace*{2pt}
+    \href{mailto:rr4kib@gmail.com}{Email: rr4kib@gmail.com}\\ \href{tel:+8801629563621}{Phone: +8801629563621}\\
+    House\#BDR Gate, Ghatarchar, Ati Bazar, Keraniganj\\
+    \vspace*{2pt} 
+    % \hfill{  \includegraphics [height=3cm]{CV-img.jpg}}
+    \textbf{\href{https://www.linkedin.com/in/vatiza}{linkedin.com/vatiza }} \newline
+    \textbf{\href{https://github.com/vatiza}{github.com/vatiza }} \newline
+    \textbf{\href{https://rakib.works/}{rakib.works -Portfolio}} \newline
+     \textbf{\href{https://rakib.works/}{fb.com/v4tiza}}
+    \vspace*{8mm}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %     Education
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Education}
+      \vspace{2mm}
+      \textbf{Bangladesh University of Business and Technology}\hfill Mirpur-2 Dhaka, Dhaka 1216\\
+Bachelor of Science in Computer Science and Engineering \hfill October 2019 - July 2024(Expected)\\
+{\sl CGPA: Not Passed}\\
+\vspace{2mm}
+      \textbf{Narail Govt Technical School And College!}\hfill Narail\\
+Higher Secondary Certificate Computer Operation And Maintenance \hfill January 2017 - July 2019\\
+{\sl CGPA: 4.17}\\
+\vspace{2mm}
+      \textbf{Narail Govt Technical School And College!}\hfill Narail\\
+Secondary School Certificate Computer And Information Sciences \hfill January 2015 - July 2017\\
+{\sl CGPA: 4.04}\\
+\vspace{4mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %     Experience
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Experience}
+      \vspace{2mm}
+
+      \textbf{Rapid PR}\textbf{ | Video Editor} \hfill 26 Eskaton Garden (3rd Floor) , Dhaka, Bangladesh | April 2019 - September 2019\\
+          \vspace{-3mm}
+\begin{itemize} \itemsep -3pt
+\item[] I\textquotesingle{}m an experienced video editor with a background in online news portals and videography. Skilled in editing software, I create visually captivating videos, meeting high-quality standards. My experience in fast-paced online news environments has honed my ability to excel under tight deadlines while delivering creative and accurate results.
+\end{itemize}
+\vspace{3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \header{Skills}
+  \vspace{2mm}
+  \begin{longtable}{p{4cm}p{12cm}}
+  Programming Languages: & C, C++, Java, Dart, JavaScript, Python(learning). Have good knowledge in \textbf{OOP} \\
+  Web Development: & HTML,Raw CSS, Responsive Web Page Design. \\
+ Frameworks : & Bootstrap, Tailwind CSS, Flutter(Basic), Agile, Waterfall\\
+  Tools / Platforms: & Linux, VMware, Android Studio, Git, Cisco packet tracer, Azure portal, Figma, Adobe Xd, Basecamp/Monday. \\
+  Databases: & MYSQL, MongoDB, Firebase \\
+  \end{longtable}
+\vspace{3mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %    Industrial Training
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Industrial Training}
+      \vspace{2mm}
+      \textbf{Hardware and Software Maintenance
+ }\hfill Mohiskhula  Narail Sadar Narail\\
+Narail Govt. National Women org. \hfill 2017
+\\
+{\sl Duration: 3 months}\\
+\vspace{2mm}
+      \textbf{Install Networking Hardware
+}\hfill Mohiskhula  Narail Sadar Narail \\
+Narail Youth Organization \hfill 2019\\
+{\sl Duration: 3 months}\\
+\vspace{4mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %    Language
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+      \header{Language Proficiency}
+      \vspace{2mm}
+     \textbf{Bangla}\\
+     \textbf{English}\\
+\vspace{4mm}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %   Specialization
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Specialization}
+      \vspace{1mm}
+   \begin{itemize}
+        \item   Multi-Tasking and Fast Learning.  
+        \item   Team working and Good Communication skill.
+        % \item   Traveling
+        \item   Honestly Speaking and Time Management.
+   \end{itemize}
+
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %     Projects
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Projects}
+      \vspace{2mm}
+      {\textbf{EmployeeManagementSystem}}\textbf{ | \href{https://github.com/vatiza/EmployeeManagementSystem}{Link}}\hfill{\sl Java, HTML}\\
+          \vspace{-3mm}
+\begin{itemize} \itemsep -3pt
+\item[] Employee Management Systems is a comprehensive solution designed to automate and streamline the management of employee data within an organization. The software is developed using Java programming language and the MySQL database. The IDE used for development is Apache NetBeans.
+\end{itemize}
+          \vspace*{2mm}
+      {\textbf{BloodBankAndroidProject}}\textbf{ | \href{https://github.com/vatiza/BloodBankAndroidProject}{Link}}\hfill{\sl Java}\\
+          \vspace{-3mm}
+\begin{itemize} \itemsep -3pt
+\item[] The Blood Bank App, powered by Java programming language and backed by the real-time Firebase database, is a lifeline for blood donors and recipients. This mobile application offers a seamless and user-friendly experience, facilitating donor registration and connecting individuals in need with available donors based on location and blood type.
+\end{itemize}
+%           \vspace*{2mm}
+%       {\textbf{portfolio}}\textbf{ | \href{https://github.com/vatiza/portfolio}{Link}}\hfill{\sl HTML, CSS, JavaScript}\\
+%           \vspace{-3mm}
+% \begin{itemize} \itemsep -3pt
+% \item[] My portfolio website! This digital space is a reflection of my passion and expertise, meticulously designed using HTML, CSS, and JavaScript. Explore my world through the lens of web development and design, where creativity meets functionality.
+% \end{itemize}
+          \vspace*{2mm}
+      {\textbf{bubt\_parking\_system}}\textbf{ | \href{https://github.com/vatiza/bubt\_parking\_system}{Link}}\hfill{\sl Java, Makefile, HTML}\\
+          \vspace{-3mm}
+\begin{itemize} \itemsep -3pt
+\item[] BUBT Vehicle Parking System is a cutting-edge software solution born from a semester project. Developed using Java and powered by a MySQL database, this project was brought to life within the Apache NetBeans IDE. Our system simplifies and streamlines the vehicle parking process, making it efficient and hassle-free. Stay tuned to witness the power of technology meeting practicality.
+\end{itemize}
+          \vspace*{3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %
+      %     Certifications
+      %
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \header{Certifications}
+      \vspace{2mm}
+      • Complete Introduction to Cybersecurity 2023 on 09/13/2021 as taught by Grant Collins on - \textbf{\href{https://www.udemy.com/certificate/UC-8e63cd79-afe7-4c1b-b342-1b8b4f7010f3/}{Udemy}}\\
+\vspace*{1mm}
+      • SQL Masterclass: SQL for Data Analytics on 12/08/2022 as taught by Start-Tech Academy on - \textbf{\href{https://www.udemy.com/certificate/UC-2f8d5423-8e8c-4726-aac4-5d0de06ab526/}{Udemy}}\\
+\vspace*{1mm}
+      • Everything About Kali Linux OS on 12/08/2022 as taught by Towards Techno, Tech Tutorials on - \textbf{\href{https://www.udemy.com/certificate/UC-6fa568e8-b553-4d1b-a7d0-8a919776d449/}{Udemy}}\\
+\vspace*{1mm}
+      • Google Data Studio A-Z: Looker Studio for Data Visualization on 08/02/2023 as taught by Start-Tech Academy on - \textbf{\href{https://www.udemy.com/certificate/UC-c7187344-687f-46ae-8ac8-6a9c58d84ace/}{Udemy}}\\
+\vspace*{1mm}
+      • Python Core on - \textbf{\href{https://www.sololearn.com/certificates/CT-BTRVSEDB}{Sololearn}}\\
+\vspace*{1mm}
+      • Microsoft PowerPoint Course - Zero to Hero in MS PowerPoint on 12/08/2022 as taught by Usama Hassan on - \textbf{\href{https://www.udemy.com/certificate/UC-c3679a40-51df-426b-8a05-631ac38542a9/}{Udemy}}\\
+\vspace*{1mm}
+      • Adobe Premiere Pro CC Video Editing Course Beginners To Pro on 05/13/2022 as taught by Stephen Koel Soren on - \textbf{\href{https://www.udemy.com/certificate/UC-1de79da9-00ef-4764-817e-8ad97c951d7a/}{Udemy}}\\
+\vspace*{1mm}
+      • Python Programming Beyond The Basics \& Intermediate Training on 06/30/2021 as taught by SDE Arts \textbar{} Octavo on - \textbf{\href{https://www.udemy.com/certificate/UC-8321220c-d281-44ff-9ad8-ff8c0b724873/}{Udemy}}\\
+\vspace*{1mm}
+      • Problem Solving (Basic) Certificate from - \textbf{\href{https://www.hackerrank.com/certificates/41e3022b86d5}{HackerRank}}\\
+\vspace*{1mm}
+      \vspace{2mm}
+
+\vspace{3cm}
+I affirm that the details supplied in this form are accurate, true, and fully complete, to the best of my knowledge and belief. Should any information be discovered as false, incorrect, or incomplete, or if any ineligibility is uncovered before or after the examination, the Recruitment Authority reserves the right to cancellation of my application.
+
+
+\vspace{2cm} \hfill $\overline{Signature}$
+
+
+
+
+
+    \end{document}

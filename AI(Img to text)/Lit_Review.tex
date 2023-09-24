@@ -1,0 +1,30 @@
+
+
+
+\subsection{Related work}
+Handwriting recognition has already achieved impressive results using shallow networks [1].Many
+papers have been published with research detailing new techniques for the classification of handwritten
+numerals, characters and words. The deep belief networks (DBN) with three layers along with a greedy
+algorithm were investigated for the MNIST dataset and reported an accuracy of 98.75% [25]. Pham et al. applied
+a regularization method of dropout to improve the performance of recurrent neural networks (RNNs) in
+recognizing unconstrained handwriting [26].
+The author reported improvement in RNN performance with significant reduction in the character error rate (CER) and word error rate (WER).\par 
+\vspace{5mm}
+The convolutional neural network brings a revolution in the handwriting recognition field and delivered
+the state-of-the-art performance in this domain [27–32]. In 2003, Simard et al. introduced a general
+convolutional neural network architecture for visual document analysis and weeded out the complex method of neural network training [33]. Wang et al. proposed a novel approach for end-to-end text recognition using multilayer CNNs and achieved excellent performance on benchmark databases, namely, ICDAR 2003 and Street View Text [34]. Recently, Shi et al. integrated the advantages of both the deep CNN (DCNN) and recurrent neural network (RNN) and named it conventional recurrent neural network (CRNN). They applied CRNN for scene text recognition and found it to be superior to traditional methods of recognition [35]. Badrinarayanan et al. proposed a deep convolution network architecture for semantic segmentation. The segmentation architecture is known as SegNet and consists of an encoder network, a decoder network and a pixel-wise classification layer. The proposed method used max-pooling indices of a feature map while decoding and observed good performance. The method is also analyzed and compared with existing techniques for road scene and indoor understanding [36–38]. CNN has shown remarkable abilities in offline handwritten character recognition of Arabic language [39]; handwritten Tamil character recognition [40]; Telugu character recognition [41], handwritten Urdu text recognition [42,43], handwritten character recognition in Indic scripts [44] and Chinese handwritten text recognition [45–47].\par 
+\vspace{5mm}
+Recently, Gupta et al. in [48] proposed a novel multi-objective optimization framework for identifying the
+most informative local regions from a character image. The work was also evaluated on isolated handwritten
+English numerals, namely, MNIST images, along with three other popular Indic scripts, namely, handwritten
+Bangala numerals and handwritten Devanagari characters. The authors used features extracted from a
+convolutional neural network in their model and achieved 95.96% recognition accuracy. The work of Nguyen et al. in [49] used a multi-scale CNN for extracting spatial classification features for handwritten mathematical expression (HME). The local features and spatial information of HME images were used for clustering HME images. The work observed high performance for the CROHME dataset. They (authors) also concluded that classification can be improved by training the CNN with a combination of global max pooling and global attentive pooling. Ziran et al. [50] developed a faster R-CNN-based framework for text/word location and recognition in historical books. The authors evaluated these deep learning methods on Gutenberg’s Bible pages. The handwritten character recognition problem is intelligently addressed in the work of Ptucha et al. [51] by the introduction of an intelligent character recognition (ICR) system using a conventional neural network. The work was evaluated on French-based RIMES lexicon datasets and English-based IAM datasets, showing substantial improvement.
+\par 
+\vspace{5mm}
+The performance of CNNs depends mainly on the choice of hyper-parameters [52], which are usually
+decided on a trial-and-error basis. Some of the hyper-parameters are, namely, activation function, numberofepochs, kernelsize, learningrate, hiddenunits, hiddenlayers, etc. Theseparameters are very important
+as they control the way an algorithm learns from data [53]. Hyper-parameters differ from model parameters and must be decided before the training begins.
+\par
+\vspace{5mm}
+ResNet-52 [54], GoogleNet [55], VGG-16 [56] and AlexNet [57] are some popular CNN models that have
+a total of 150, 78, 57 and 27 hyper-parameters, respectively. A bad choice for hyper-parameters can incur a high computation cost and lead to poor CNN performance. The researcher’s expertise plays an important role in deciding on the configuration of hyper-parameters and requires an intelligent strategic plan. This creates several questions about CNN design for handwriting recognition tasks. How is CNN better in extracting distinct features from handwritten characters? What effect do different hyper-parameters have on CNN performance? What is the role of design parameters in improving CNN performance? In order to guide future research in the handwriting recognition field, it is important to address these questions.
